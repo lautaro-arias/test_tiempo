@@ -1,8 +1,9 @@
+import AddNewTask from "./components/addNewTask";
 
 export default function Home() {
   return (
-   <>
-   <h1>Hello</h1>
-   </>
+    < >
+      <AddNewTask />
+    </>
   );
 }
